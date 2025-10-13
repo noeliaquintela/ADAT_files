@@ -92,6 +92,7 @@ namespace _04_FichreoRegistrosCampos
 
         private void btnGuardaModifica_Click(object sender, EventArgs e)
         {
+            //comenrario tonto par git
             string fichero = "notas.txt";
             string nombre = this.txtNombre.Text.Trim();
             string nuevaNota = this.numNota.Value.ToString();
