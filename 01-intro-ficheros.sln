@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-NumerosPares", "03-Numer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-FichreoRegistrosCampos", "04-FichreoRegistrosCampos\04-FichreoRegistrosCampos.csproj", "{23159A92-4DBD-4860-81B8-4F516E679688}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-csv", "05-csv\05-csv.csproj", "{1F424997-3124-40B9-8C4E-37B7308114C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{23159A92-4DBD-4860-81B8-4F516E679688}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23159A92-4DBD-4860-81B8-4F516E679688}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23159A92-4DBD-4860-81B8-4F516E679688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F424997-3124-40B9-8C4E-37B7308114C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F424997-3124-40B9-8C4E-37B7308114C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F424997-3124-40B9-8C4E-37B7308114C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F424997-3124-40B9-8C4E-37B7308114C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
