@@ -34,11 +34,13 @@
             btnSerializarFromForm = new Button();
             label1 = new Label();
             panel1 = new Panel();
-            txtNombre = new TextBox();
-            txtEdad = new TextBox();
-            label2 = new Label();
+            btnAppendPersona = new Button();
             txtProfesion = new TextBox();
             label3 = new Label();
+            txtEdad = new TextBox();
+            label2 = new Label();
+            txtNombre = new TextBox();
+            btnLeerLista = new Button();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -73,7 +75,7 @@
             // 
             // btnSerializarFromForm
             // 
-            btnSerializarFromForm.Location = new Point(349, 68);
+            btnSerializarFromForm.Location = new Point(332, 28);
             btnSerializarFromForm.Name = "btnSerializarFromForm";
             btnSerializarFromForm.Size = new Size(228, 23);
             btnSerializarFromForm.TabIndex = 3;
@@ -92,6 +94,7 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(btnAppendPersona);
             panel1.Controls.Add(txtProfesion);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(txtEdad);
@@ -104,28 +107,15 @@
             panel1.Size = new Size(611, 141);
             panel1.TabIndex = 5;
             // 
-            // txtNombre
+            // btnAppendPersona
             // 
-            txtNombre.Location = new Point(89, 25);
-            txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(100, 23);
-            txtNombre.TabIndex = 5;
-            // 
-            // txtEdad
-            // 
-            txtEdad.Location = new Point(89, 69);
-            txtEdad.Name = "txtEdad";
-            txtEdad.Size = new Size(100, 23);
-            txtEdad.TabIndex = 7;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(13, 72);
-            label2.Name = "label2";
-            label2.Size = new Size(36, 15);
-            label2.TabIndex = 6;
-            label2.Text = "Edad:";
+            btnAppendPersona.Location = new Point(332, 72);
+            btnAppendPersona.Name = "btnAppendPersona";
+            btnAppendPersona.Size = new Size(228, 23);
+            btnAppendPersona.TabIndex = 10;
+            btnAppendPersona.Text = "Añadir Persona";
+            btnAppendPersona.UseVisualStyleBackColor = true;
+            btnAppendPersona.Click += btnAppendPersona_Click;
             // 
             // txtProfesion
             // 
@@ -143,15 +133,49 @@
             label3.TabIndex = 8;
             label3.Text = "Profesión";
             // 
+            // txtEdad
+            // 
+            txtEdad.Location = new Point(89, 69);
+            txtEdad.Name = "txtEdad";
+            txtEdad.Size = new Size(100, 23);
+            txtEdad.TabIndex = 7;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(13, 72);
+            label2.Name = "label2";
+            label2.Size = new Size(36, 15);
+            label2.TabIndex = 6;
+            label2.Text = "Edad:";
+            // 
+            // txtNombre
+            // 
+            txtNombre.Location = new Point(89, 25);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(100, 23);
+            txtNombre.TabIndex = 5;
+            // 
+            // btnLeerLista
+            // 
+            btnLeerLista.Location = new Point(12, 86);
+            btnLeerLista.Name = "btnLeerLista";
+            btnLeerLista.Size = new Size(228, 23);
+            btnLeerLista.TabIndex = 6;
+            btnLeerLista.Text = "Leer lista personas.json";
+            btnLeerLista.UseVisualStyleBackColor = true;
+            btnLeerLista.Click += btnLeerLista_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(panel1);
-            Controls.Add(btnSerializarAFichero);
             Controls.Add(lblResultadoFichero);
+            Controls.Add(btnLeerLista);
+            Controls.Add(btnSerializarAFichero);
             Controls.Add(btnLeerJsonLocal);
+            Controls.Add(panel1);
             Name = "Form1";
             Text = "Form1";
             panel1.ResumeLayout(false);
@@ -168,10 +192,12 @@
         private Button btnSerializarFromForm;
         private Label label1;
         private Panel panel1;
-        private TextBox txtProfesion;
         private Label label3;
-        private TextBox txtEdad;
         private Label label2;
+        private TextBox txtProfesion;
+        private TextBox txtEdad;
         private TextBox txtNombre;
+        private Button btnAppendPersona;
+        private Button btnLeerLista;
     }
 }
