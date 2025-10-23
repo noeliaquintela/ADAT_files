@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-csv", "05-csv\05-csv.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-json", "06-json\06-json.csproj", "{454849FD-B9D4-401E-B024-67E94931FBC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-JSONMapearMascotas", "07-JSONMapearMascotas\07-JSONMapearMascotas.csproj", "{4AB8B3CD-3556-4325-A491-124F15100A20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{454849FD-B9D4-401E-B024-67E94931FBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{454849FD-B9D4-401E-B024-67E94931FBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{454849FD-B9D4-401E-B024-67E94931FBC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB8B3CD-3556-4325-A491-124F15100A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB8B3CD-3556-4325-A491-124F15100A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB8B3CD-3556-4325-A491-124F15100A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB8B3CD-3556-4325-A491-124F15100A20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

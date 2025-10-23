@@ -50,7 +50,7 @@
             btnLeerJsonLocal.Name = "btnLeerJsonLocal";
             btnLeerJsonLocal.Size = new Size(228, 23);
             btnLeerJsonLocal.TabIndex = 0;
-            btnLeerJsonLocal.Text = "Leer personas.json";
+            btnLeerJsonLocal.Text = "Deserializar";
             btnLeerJsonLocal.UseVisualStyleBackColor = true;
             btnLeerJsonLocal.Click += btnLeerJsonLocal_Click;
             // 
@@ -79,7 +79,7 @@
             btnSerializarFromForm.Name = "btnSerializarFromForm";
             btnSerializarFromForm.Size = new Size(228, 23);
             btnSerializarFromForm.TabIndex = 3;
-            btnSerializarFromForm.Text = "Grabar Json";
+            btnSerializarFromForm.Text = "Grabar Json (SERIALIZAR)";
             btnSerializarFromForm.UseVisualStyleBackColor = true;
             btnSerializarFromForm.Click += btnSerializarFromForm_Click;
             // 
